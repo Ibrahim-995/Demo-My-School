@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+         <menuitem name="Demo School"
+                  id="demo_my_school.school_meu_root"/>
+
+        <menuitem name="Student"
+                  id="demo_my_school.student_list"
+                  parent="demo_my_school.school_meu_root"
+                  action="open_view_student_tree"/>
+
+        <menuitem name="Teacher"
+                  id="demo_my_school.teacher_list"
+                  parent="demo_my_school.school_meu_root"
+                  action="open_view_teacher_tree"/>
+
+        <menuitem name="Section"
+                  id="demo_my_school.section_list"
+                  parent="demo_my_school.school_meu_root"
+                  action="open_view_section_tree"/>
+        <menuitem name="Course"
+                  id="demo_my_school.course_list"
+                  parent="demo_my_school.school_meu_root"
+                  action="open_view_course_tree"/>
+        <menuitem name="Registration"
+                  id="demo_my_school.registration_list"
+                  parent="demo_my_school.school_meu_root"
+                  action="open_view_registration_tree"/>
+
+
+    </data>
+</odoo>
